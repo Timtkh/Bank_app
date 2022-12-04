@@ -1,0 +1,7 @@
+C:\Users\timht\source\repos\Bank\Bank\obj\Debug\Bank.csproj.AssemblyReference.cache
+C:\Users\timht\source\repos\Bank\Bank\obj\Debug\Bank.csproj.SuggestedBindingRedirects.cache
+C:\Users\timht\source\repos\Bank\Bank\obj\Debug\AddMoneyWindow.g.cs
+C:\Users\timht\source\repos\Bank\Bank\obj\Debug\MainWindow.g.cs
+C:\Users\timht\source\repos\Bank\Bank\obj\Debug\App.g.cs
+C:\Users\timht\source\repos\Bank\Bank\obj\Debug\Bank_MarkupCompile.cache
+C:\Users\timht\source\repos\Bank\Bank\obj\Debug\Bank_MarkupCompile.lref

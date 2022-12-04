@@ -1,0 +1,27 @@
+﻿<Window x:Class="Bank.CreateNewAccountWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bank"
+        mc:Ignorable="d"
+        Title="CreateNewAccountWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="0.5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel VerticalAlignment="Center">
+            <TextBlock HorizontalAlignment="Center" Margin="5" FontSize="25" FontFamily="Times New Roman">Enter the name of new account:</TextBlock>
+            <TextBlock x:Name="accountnameerrortextblock" Foreground="Red" HorizontalAlignment="Left" Visibility="Hidden" Margin="50,0,0,0" FontSize="12" FontFamily="Times New Roman">Uncorrect input, use english letters!</TextBlock>
+            <TextBox x:Name="accountnametextbox" Margin="50,5,50,5" FontSize="25" FontFamily="Times New Roman" TextChanged="accountNameTextBox_TextChanged"></TextBox>
+        </StackPanel>
+        <StackPanel Grid.Row="2"  MaxWidth="200" VerticalAlignment="Center">
+            <Button x:Name="Submit" Content="Submit" MinHeight="60" FontSize="25" FontFamily="Times New Roman" Click="Submit_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
